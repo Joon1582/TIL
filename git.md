@@ -45,3 +45,4 @@ git push origin main
 ```
 
 
+add (무대에 올리기) -> commit -> push
