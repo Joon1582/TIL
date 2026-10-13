@@ -24,6 +24,7 @@ git add . (모든 파일/폴더 올리기)
 - `.git` repository에 저장 (사진찍기)
 ```
 git commit -m "message"
+git commit --amend -m "수정하고 싶은 이미지" (마지막 커밋 메세지 수정)
 ```
 
 ## log
@@ -50,3 +51,12 @@ add (무대에 올리기) -> commit -> push
 git add .
 git commit -m "remote, push 명령어 추가"
 git push origin main
+
+## 복구하는 법
+- 이전 커밋으로 돌아가기
+```
+git restore <file name> (add . 하기 전에만 가능)
+git restore .
+git restore --staged <filename>
+
+```
