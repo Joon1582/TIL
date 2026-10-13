@@ -46,3 +46,7 @@ git push origin main
 
 
 add (무대에 올리기) -> commit -> push
+
+git add .
+git commit -m "remote, push 명령어 추가"
+git push origin main
